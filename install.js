@@ -9,10 +9,10 @@ module.exports = async (kernel) => {
         description: 'Gligen depends on ComfyUI. Make sure to launch ComfyUI before proceeding.',
         menu: [{
           text: "Start ComfyUI (If already installed)",
-          href: '/pinokio/browser?uri=https://github.com/cocktailpeanutlabs/comfyui.git',
+          href: '/pinokio/browser?uri=https://github.com/pinokiofactory/comfy.git',
         }, {
           text: "Install ComfyUI",
-          href: 'https://pinokio.computer/i?uri=https://github.com/cocktailpeanutlabs/comfyui',
+          href: 'https://pinokio.computer/i?uri=https://github.com/pinokiofactory/comfy',
         }]
       }
     }, {
@@ -35,13 +35,13 @@ module.exports = async (kernel) => {
       method: "fs.download",
       params: {
         uri: "https://huggingface.co/comfyanonymous/GLIGEN_pruned_safetensors/resolve/main/gligen_sd14_textbox_pruned.safetensors?download=true",
-        dir: "https://github.com/cocktailpeanutlabs/comfyui.git/app/models/gligen"
+        dir: "https://github.com/pinokiofactory/comfy.git/app/models/gligen"
       }
     }, {
       method: "fs.download",
       params: {
         uri: "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors?download=true",
-        dir: "https://github.com/cocktailpeanutlabs/comfyui.git/app/models/checkpoints"
+        dir: "https://github.com/pinokiofactory/comfy.git/app/models/checkpoints"
       }
     }, {
       method: "fs.share",
