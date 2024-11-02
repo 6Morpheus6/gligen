@@ -8,10 +8,10 @@ module.exports = async (kernel) => {
         description: 'Gligen depends on ComfyUI. Make sure to launch ComfyUI before proceeding.',
         menu: [{
           text: "Start ComfyUI (If already installed)",
-          href: '/pinokio/browser?uri=https://github.com/cocktailpeanutlabs/comfyui.git',
+          href: '/pinokio/browser?uri=https://github.com/pinokiofactory/comfy.git',
         }, {
           text: "Install ComfyUI",
-          href: 'https://pinokio.computer/i?uri=https://github.com/cocktailpeanutlabs/comfyui',
+          href: 'https://pinokio.computer/i?uri=https://github.com/pinokiofactory/comfy',
         }]
       }
     }, {
