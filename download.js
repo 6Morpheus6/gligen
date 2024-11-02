@@ -3,7 +3,7 @@ module.exports = {
     method: "fs.download",
     params: {
       uri: "{{input.uri}}",
-      dir: "https://github.com/cocktailpeanutlabs/comfyui.git/app/models/checkpoints"
+      dir: "https://github.com/pinokiofactory/comfy.git/app/models/checkpoints"
     }
   }]
 }
